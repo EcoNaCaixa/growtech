@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${DmSans} antialiased`}
+        className={`${DmSans} antialiased max-w-full`}
       >
         <header>
           <Navbar />

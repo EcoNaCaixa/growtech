@@ -39,7 +39,7 @@ export default function Header() {
           </div>
 
         </ul>
-        <div className="hidden md:flex md:items-center md:justify-end ">
+        <div className="hidden md:flex md:items-center md:justify-center ">
           <a href="" className="underline text-blue-600 font-semibold">CONTACT</a>
         </div>
       </div>
