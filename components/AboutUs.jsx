@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutUs() {
   return (
     <>
-      <section className="container mx-auto md:p-8 grid gap-20">
+      <section className="container mx-auto md:p-8 md:mb-16 grid gap-20">
         <div className="grid md:grid-cols-2 md:gap-16 grid-cols-1 ">
           <Image
             src="/founders.webp"
