@@ -11,7 +11,7 @@ export default function Home() {
     <AnnouncementLogo />
     <VideoTrailer />
     <Qualities />
-    <Image src="/banner-growtech.webp" alt="banner-growtech" width={1444} height={336} className="w-full py-8"/>
+    <Image src="/banner-growtech.webp" alt="banner-growtech" width={1444} height={336} className="w-full py-16"/>
     <AboutUs />
   </>
   );
