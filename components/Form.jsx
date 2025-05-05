@@ -263,8 +263,14 @@ export default function Form() {
             }
           `}</style>
         </div>
-        <div>
-          <video className="hidden md:block" src="form-vide.mp4" autoPlay muted loop></video>
+        <div className="rounded-xl">
+          <video
+            className="hidden rounded-xl md:block"
+            src="form-vide.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
         </div>
       </div>
     </div>
