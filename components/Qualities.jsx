@@ -11,7 +11,7 @@ export default function Qualities() {
               muted
               className="w-full"
             ></video>
-            <div className="p-4 flex flex-col justify-center items-start">
+            <div className="p-4 pt-8 md:pt-4 flex flex-col justify-center items-start">
               <h2 className="text-left md:text-right w-full pb-6 text-lg md:text-3xl">
                 Discover our factory,
                 <span className="text-[#455072]">
@@ -37,7 +37,7 @@ export default function Qualities() {
               muted
               className="w-full md:order-1"
             ></video>
-            <div className="p-4 flex flex-col justify-center items-start">
+            <div className="p-4 pt-8 md:pt-4 flex flex-col justify-center items-start">
               <h2 className="text-left md:text-left w-full pb-6 text-lg md:text-3xl">
                 Excellence in technology:
                 <span className="text-[#455072]">

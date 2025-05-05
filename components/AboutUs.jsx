@@ -12,7 +12,7 @@ export default function AboutUs() {
             height={704}
             className="w-full"
           />
-          <div className="p-4 flex flex-col justify-center items-start">
+          <div className="p-4 pt-8 md:pt-4 flex flex-col justify-center items-start">
             <h2 className="text-left md:text-left w-full pb-6 text-lg md:text-3xl">
               Our
               <span className="text-[#455072] pl-2">story</span>
@@ -38,7 +38,7 @@ export default function AboutUs() {
             muted
             className="w-full"
           ></video>
-          <div className="p-4 flex flex-col justify-center items-start">
+          <div className="p-4 pt-8 md:pt-4 flex flex-col justify-center items-start">
             <h2 className="text-left md:text-left w-full pb-6 text-lg md:text-3xl">
               Our Exponential
               <span className="text-[#455072] pl-2">Growth Journey</span>
@@ -68,7 +68,7 @@ export default function AboutUs() {
             muted
             className="w-full"
           ></video>
-          <div className="p-4 flex flex-col justify-center items-start">
+          <div className="p-4 pt-8 md:pt-4 flex flex-col justify-center items-start">
             <h2 className="text-left md:text-left w-full pb-6 text-lg md:text-3xl">
               Building the
               <span className="text-[#455072] pl-2">Future</span>

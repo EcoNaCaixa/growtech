@@ -13,7 +13,7 @@ export default function VideoTrailer() {
     <div className="flex justify-center pt-8 w-full">
       <video src="/video-trailer-sofa.mp4" controls></video>
     </div>
-    <div className="grid grid-cols-2 md:grid-cols-5 p-8 pt-24 gap-2 gap-y-8">
+    <div className="grid grid-cols-2 md:grid-cols-5 p-8 pt-20 md:pt-24 gap-2 gap-y-8">
       <Feature svg={ <SofaIcon />} 
         title="117 Million" 
         content="ARR in 12 months" 
