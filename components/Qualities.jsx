@@ -1,7 +1,7 @@
 export default function Qualities() {
   return (
     <>
-      <section className="container mx-auto md:p-8">
+      <section id="technology" className="container mx-auto md:p-8">
         <div>
           <div className="grid md:grid-cols-2 md:gap-4 grid-cols-1 pb-8 md:pb-16">
             <video

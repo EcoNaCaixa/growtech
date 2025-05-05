@@ -27,20 +27,20 @@ export default function Header() {
             }   md:flex md:text-lg shadow-lg md:gap-4 md:shadow-none items-center justify-center font-semibold absolute md:static top-14 left-0 w-full bg-white md:bg-transparent md:w-auto uppercase`}
         >
           <li className="py-4 pl-4 md:py-0 md:pl-0">
-            <a href="#project" >Factory</a>
+            <a href="#Factory" >Factory</a>
           </li>
             <li className="py-4 md:py-0 pl-4 md:pl-0">
-              <a href="#aboutMe" >technology</a>
+              <a href="#technology" >Technology</a>
             </li>
             <li className="py-4 md:py-0 pl-4 md:pl-0">
-              <a href="#aboutMe" >our story</a>
+              <a href="#aboutMe" >Our story</a>
             </li>
           <div className="md:hidden">
           </div>
 
         </ul>
         <div className="hidden md:flex md:items-center md:justify-center ">
-          <a href="" className="underline text-blue-600 font-semibold">CONTACT</a>
+          <a href="#contact" className="underline text-blue-600 font-semibold">CONTACT</a>
         </div>
       </div>
     </nav>

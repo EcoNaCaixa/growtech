@@ -103,10 +103,10 @@ export default function Form() {
   };
 
   return (
-    <div className="container mx-auto p-8">
+    <section id="contact" className="container mx-auto p-8">
       <div className="p-4 flex flex-col justify-center items-start pb-8 md:pb-16">
         <h2 className="text-center w-full pb-6 text-lg md:text-3xl text-[#454F40]">
-          Contact us to explore our,
+          Contact us to explore our
           <span className="text-[#455072] pl-2">innovative technology</span>
         </h2>
         <p className="text-center w-full">
@@ -129,6 +129,7 @@ export default function Form() {
                 type="text"
                 id="name"
                 name="name"
+                placeholder="Ex: John"
                 value={formData.name}
                 onChange={handleChange}
                 className={errors.name ? "error" : ""}
@@ -144,6 +145,7 @@ export default function Form() {
                 type="email"
                 id="email"
                 name="email"
+                placeholder="Ex: johndeer@gmail.com"
                 value={formData.email}
                 onChange={handleChange}
                 className={errors.email ? "error" : ""}
@@ -159,6 +161,7 @@ export default function Form() {
                 type="tel"
                 id="phone"
                 name="phone"
+                placeholder="+00 (00) 90000-0000"
                 value={formData.phone}
                 onChange={handleChange}
                 className={errors.phone ? "error" : ""}
@@ -167,6 +170,14 @@ export default function Form() {
                 <span className="error-message">{errors.phone}</span>
               )}
             </div>
+
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="submit-button w-full mb-4"
+            >
+              {isSubmitting ? "Submitting..." : "Sign up"}
+            </button>
 
             <div className="form-group checkbox">
               <input
@@ -184,14 +195,6 @@ export default function Form() {
                 <span className="error-message">{errors.termsAccepted}</span>
               )}
             </div>
-
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="submit-button w-full"
-            >
-              {isSubmitting ? "Submitting..." : "Sign up"}
-            </button>
           </form>
 
           <style jsx>{`
@@ -214,6 +217,7 @@ export default function Form() {
               padding: 10px;
               border: 1px solid #ddd;
               border-radius: 4px;
+              background-color: #fff;
             }
             .checkbox {
               display: flex;
@@ -236,11 +240,10 @@ export default function Form() {
               display: block;
             }
             .submit-button {
-              background-color: #4caf50;
+              background-color: #78B000;
               color: white;
-              padding: 10px 15px;
+              padding: 12px 16px;
               border: none;
-              border-radius: 4px;
               cursor: pointer;
               font-size: 1rem;
             }
@@ -273,6 +276,6 @@ export default function Form() {
           ></video>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

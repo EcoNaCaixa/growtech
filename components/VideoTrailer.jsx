@@ -8,7 +8,7 @@ import {Factory} from "../components/icons";
 
 export default function VideoTrailer() {
   return <>
-  <section className="container mx-auto py-8">
+  <section id="Factory" className="container mx-auto py-8">
     <h2 className="text-center md:text-2xl">Discover our factory, <span className="text-[#2D4FB6]">where we optimize <br /> every process to ensure product excellence</span></h2>
     <div className="flex justify-center pt-8 w-full">
       <video src="/video-trailer-sofa.mp4" controls></video>

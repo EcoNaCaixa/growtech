@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFFCFC;
+  --background: #fffcfc;
   --foreground: #777670;
 }
 
@@ -14,13 +14,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FFFCFC;
+    --background: #fffcfc;
     --foreground: #777670;
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
 body {
   /* background: var(--background); */
   color: var(--foreground);
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
