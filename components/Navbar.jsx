@@ -14,7 +14,7 @@ export default function Header() {
     <nav className="border-b-1 border-gray-200">
       <div className="container mx-auto grid grid-cols-2 px-4 md:px-0 md:grid-cols-3">
         <div className="flex items-center justify-end md:justify-center md:py-8 order-1 md:order-0">
-          <Image src="/logo.svg" alt="Logo" width={80} height={80} className="w-28 h-14 md:h-7 md:w-56 " />
+          <Image src="/logo.webp" alt="Logo" width={480} height={480} className="w-28 h-14 md:h-7 md:w-56 " />
         </div>
         <button
           className="md:hidden flex items-center justify-start text-gray-400"
